@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   background-color: azure;
+  padding: 5px;
 }
 
 .row > div {
@@ -9,7 +10,8 @@
   height: 100px;
 }
 .table-container {
-  width: 80vw;
+  width: 95vw;
+  margin: auto;
   background-color: aquamarine;
 }
 

@@ -19,16 +19,17 @@
     ></script>
   </head>
   <body>
-    <h1>Bootstrap Lesson</h1>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Content</div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Content</div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Content</div>
-      </div>
-    </div>
     <div class="table-container">
-      <table class="table">
+      <h1 class="text-center">Bootstrap Lesson</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Content</div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Content</div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Content</div>
+        </div>
+      </div>
+      <h1 class="text-center">Tables Lesson</h1>
+      <table class="table table-dark table-stripped table-bordered text-center">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -57,6 +58,56 @@
           </tr>
         </tbody>
       </table>
+      <h1 class="text-center">Carousel Lesson</h1>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../images/image-1.jpg"
+              class="d-block w-100"
+              alt="image-1"
+              width="200px"
+              height="300px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/image-2.jpg"
+              class="d-block w-100"
+              alt="image-2"
+              width="200px"
+              height="300px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/image-3.jpg"
+              class="d-block w-100"
+              alt="image-3"
+              width="200px"
+              height="300px"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </body>
 </html>
