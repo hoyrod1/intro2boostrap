@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+.row > div {
+  border: 2px solid black;
+  text-align: center;
+  height: 100px;
+}
+.table-container {
+  width: 80vw;
+  background-color: aquamarine;
+}
+
+.table {
+  margin: auto;
+  background-color: lightgrey;
+}
